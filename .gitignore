@@ -1,3 +1,4 @@
 src/asyncfakeyou.egg-info/
 build/
 dist/
+.idea/
