@@ -82,7 +82,7 @@ async def multiple_text_to_speech():
         print(audio_url)
 
 
-asyncio.run(execute_tasks())
+asyncio.run(multiple_text_to_speech())
 ```
 Or you can download the generated audio files to a specified directory.
 
@@ -101,7 +101,7 @@ async def multiple_text_to_speech():
     await gen.fetch_and_save_tasks(audio_tasks, output_path="./audio")
 
 
-asyncio.run(execute_tasks())
+asyncio.run(multiple_text_to_speech())
 ```
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your improvements.
