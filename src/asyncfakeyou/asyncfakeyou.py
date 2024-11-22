@@ -10,7 +10,8 @@ from collections import deque
 
 FAKEYOU_INFERENCE_URL = "https://api.fakeyou.com/tts/inference"
 FAKEYOU_JOB_URL = "https://api.fakeyou.com/tts/job/"
-BASE_STORAGE_URL = "https://storage.googleapis.com/vocodes-public"
+# BASE_STORAGE_URL = "https://storage.googleapis.com/vocodes-public" <- old url
+BASE_STORAGE_URL = "https://cdn-2.fakeyou.com"
 
 
 class AsyncAudioGen:

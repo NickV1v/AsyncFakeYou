@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="asyncfakeyou",
-    version="0.1.1",
+    version="0.1.2",
     description="An asynchronous library for interacting with the FakeYou Text-to-Speech API.",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
